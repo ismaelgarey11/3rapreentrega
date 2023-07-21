@@ -1,0 +1,35 @@
+img{
+    width: 200px;
+    height: 200px;
+}
+article{   
+     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10 px;
+    align-items: center;
+    }
+    label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+      textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        font-size: 16px;
+      }
+      textarea {
+        resize: vertical;
+        height: 100px;
+      }
+      button {
+        padding: 10px 20px;
+        background-color: #8664a7;
+        border: none;
+        color: #fff;
+        border-radius: 3px;
+        font-size: 16px;
+        cursor: pointer;
+      }

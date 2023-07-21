@@ -1,0 +1,49 @@
+
+    .buscador {
+        display: flex;
+        flex-direction: column;
+        align-items: start; }
+        .logo {
+            display: flex;
+            flex-direction: column;
+            align-items: center; }
+            .producto{
+                text-align: center;
+                width: max-content;
+            }
+            #main_principal{
+                background-color: gray;
+                display: grid;
+                grid-template-columns: 60% 40%;
+                grid-template-rows: 1 fr 1 fr;
+                grid-template-areas: "articulos videos" 
+               "novedades novedades"; }
+               .producto:hover{
+                margin: 10px 10px;
+                border-radius: 10px;
+                box-shadow:0 10px 10px rgb(0, 0, 10) ;
+            }
+            .articulos {
+                grid-area: articulos;
+                display: flex; }
+              
+              .articulos div {
+                text-align: center; }
+              
+              .videos {
+                grid-area: videos; }
+              
+              .novedades {
+                background-color: aliceblue;
+                grid-area: novedades; }
+                .container {
+                    display: flex;
+                
+                    max-width: 500px;
+                    margin: 0 auto;
+                    padding: 20px;
+                    background-color: #f5f5f5;
+                    border-radius: 5px;
+                  }
+                  
+                

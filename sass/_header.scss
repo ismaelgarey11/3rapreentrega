@@ -1,0 +1,20 @@
+header{
+    background-color: whitesmoke;
+}
+    
+    ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    }
+    li{
+    padding: 5px 5px;
+    
+    }
+    a{
+    text-decoration: none;
+    }
+    a:hover{
+    background-color : rgb(116, 79, 250);
+    }
