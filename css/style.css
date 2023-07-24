@@ -53,6 +53,7 @@
     }
     .producto:hover{
         margin: 5px 5px;
+        border: transparent;
         border-radius: 5px;
         box-shadow:0 5px 5px rgb(0, 0, 10) ;
     }
